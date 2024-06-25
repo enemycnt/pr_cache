@@ -1,0 +1,27 @@
+{
+  "name": "priority caching",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=21.0",
+    "pnpm": ">= 9"
+  },
+  "scripts": {
+    "samples": "ts-node exec.ts",
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node21": "^21.0.3",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.8",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.2",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "5.5.2"
+  }
+}

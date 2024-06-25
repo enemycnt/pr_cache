@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node21/tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "module": "node16",
+    "typeRoots": [
+      "node_modules/@types",
+      "./groupBy.d.ts"
+    ]
+  },
+  "ts-node": {
+    "transpileOnly": true,
+  }
+}
